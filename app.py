@@ -32,8 +32,8 @@ from linebot.models import (
 app = Flask(__name__)
 
 # get channel_secret and channel_access_token from your environment variable
-channel_secret = os.getenv('LINE_CHANNEL_SECRET', None)
-channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', None)
+channel_secret = os.getenv('a0f86415b3d551a83fe9697a8c3d2b79', None)
+channel_access_token = os.getenv('6pwtegFO8D6hJGWdxP2xmgLw3dkPC9fqUAI1kTDKHVSNU66r89Dt8xitvCdFdk+LYLY59fQI4ghV9buoO/IEZ9ihadLJZshgmacRTqSwMshtvDNNI3t1JVWfa1rHUUICIn3G+6B39XEcU5qg/8vXiwdB04t89/1O/w1cDnyilFU=', None)
 if channel_secret is None:
     print('Specify LINE_CHANNEL_SECRET as environment variable.')
     sys.exit(1)
