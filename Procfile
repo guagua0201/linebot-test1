@@ -1,0 +1,1 @@
+web: gunicorn messagingtest1.wsgi
